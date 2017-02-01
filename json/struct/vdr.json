@@ -1,0 +1,271 @@
+[
+  {
+    "label" : "Compteur Horaire Groupe 1",
+    "name" : "compteur_horaire_1",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Groupe 2",
+    "name" : "compteur_horaire_2",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Groupe 3",
+    "name" : "compteur_horaire_3",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Groupe 4",
+    "name" : "compteur_horaire_4",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Groupe 5",
+    "name" : "compteur_horaire_5",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Compresseur 1",
+    "name" : "compteur_horaire_comp1",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Compresseur 2",
+    "name" : "compteur_horaire_comp2",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Exhaure 1",
+    "name" : "compteur_horaire_exh1",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Exhaure 2",
+    "name" : "compteur_horaire_exh2",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Aérotherme 1",
+    "name" : "compteur_horaire_aero1",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Aérotherme 2",
+    "name" : "compteur_horaire_aero2",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Aérotherme 3",
+    "name" : "compteur_horaire_aero3",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Ventilateur 1",
+    "name" : "compteur_horaire_vent1",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Ventilateur 2",
+    "name" : "compteur_horaire_vent2",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Ventilateur 3",
+    "name" : "compteur_horaire_vent3",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Horaire Filtre",
+    "name" : "compteur_horaire_filtre",
+    "div" : "compteurs"
+  },{
+    "label" : "Compteur Manoeuvre Groupe 1",
+    "name" : "compteur_manoeuvre_1",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Manoeuvre Groupe 2",
+    "name" : "compteur_manoeuvre_2",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Manoeuvre Groupe 3",
+    "name" : "compteur_manoeuvre_3",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Manoeuvre Groupe 4",
+    "name" : "compteur_manoeuvre_4",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Manoeuvre Groupe 5",
+    "name" : "compteur_manoeuvre_5",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Volume",
+    "name" : "volume",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "P",
+    "name" : "p_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HPD",
+    "name" : "hpd_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HCD",
+    "name" : "hcd_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "Juillet-Aout",
+    "name" : "jui_aout_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "P",
+    "name" : "p_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HPD",
+    "name" : "hpd_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HCD",
+    "name" : "hcd_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "Juillet-Aout",
+    "name" : "jui_aout_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "P",
+    "name" : "p_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HPD",
+    "name" : "hpd_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HCD",
+    "name" : "hcd_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "Juillet-Aout",
+    "name" : "jui_aout_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "P",
+    "name" : "p_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HPD",
+    "name" : "hpd_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HCD",
+    "name" : "hcd_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "Juillet-Aout",
+    "name" : "jui_aout_depassement",
+    "div" : "depassement"
+  }
+]
