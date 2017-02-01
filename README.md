@@ -8,14 +8,15 @@ Gestion complète d'un secteur
 ...
 
 ## Module Station
+### Fonctions terminées
+Création du fichier json de structure de chaque station.
 ### Fonctions en cours
-1. Création du fichier json de structure de chaque station.
+Affichage d'un formulaire (groupe compteurs).
 ### Fonctions à faire
-1. Affichage d'un formulaire (groupe compteurs).
-2. Passage d'un groupe du formulaire à l'autre.
-3. Vérification des informations saisies par l'utilisateur.
-4. Envoi des données.
-5. Enregistrement des données dans fichier .json.
+Passage d'un groupe du formulaire à l'autre.
+Vérification des informations saisies par l'utilisateur.
+Envoi des données.
+Enregistrement des données dans fichier .json.
 
 ## Module API
 ### Fonctions en cours
