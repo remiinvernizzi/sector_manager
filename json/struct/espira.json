@@ -1,0 +1,137 @@
+[
+  {
+    "label" : "Compteur Groupe",
+    "name" : "compteur",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "Compteur Volume",
+    "name" : "volume",
+    "div" : "compteurs"
+  },
+  {
+    "label" : "P",
+    "name" : "p_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_actif",
+    "div" : "actif"
+  },
+  {
+    "label" : "P",
+    "name" : "p_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_reactif",
+    "div" : "reactif"
+  },
+  {
+    "label" : "P",
+    "name" : "p_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_pmaxi",
+    "div" : "pmaxi"
+  },
+  {
+    "label" : "P",
+    "name" : "p_duree",
+    "div" : "duree"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_duree",
+    "div" : "duree"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_duree",
+    "div" : "duree"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_duree",
+    "div" : "duree"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_duree",
+    "div" : "duree"
+  },
+  {
+    "label" : "P",
+    "name" : "p_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HPH",
+    "name" : "hph_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HCH",
+    "name" : "hch_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HPE",
+    "name" : "hpe_depassement",
+    "div" : "depassement"
+  },
+  {
+    "label" : "HCE",
+    "name" : "hce_depassement",
+    "div" : "depassement"
+  }
+]
