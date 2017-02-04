@@ -1,0 +1,13 @@
+/*-------------------------------------
+    Fichier CSS du fichier principal
+-------------------------------------*/
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#corps_page
+{
+  height : 100%;
+}
