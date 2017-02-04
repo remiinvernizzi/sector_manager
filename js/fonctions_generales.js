@@ -8,4 +8,4 @@ function numVerif(inputElt){
   var regexInput = /^[0-9]+/;
   //Retourne la valeur booleenne du test de l'expression régulière
   return regexInput.test(inputElt.value);
-},
+}
