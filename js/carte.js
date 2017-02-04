@@ -20,7 +20,7 @@ function initMap()
     zoomControl: false
   }
 
-  var carte = new google.maps.Map(document.getElementById("corps_test"), optionsMap);
+  var carte = new google.maps.Map(document.getElementById("corps_page"), optionsMap);
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);

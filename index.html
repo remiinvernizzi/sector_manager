@@ -4,13 +4,19 @@
   <!-- Entête -->
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
     <!-- Feuilles de style -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 
     <!-- Script gérant les fonction de récupération et d'envoi sur le serveur -->
     <script src="js/ajax.js"></script>
 
+    <!-- Scripts de API Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGNUNatGdp5kBsZIbS-vo7Zys2AdiyaBM"></script>
+
     <!-- Scripts -->
+    <script src="js/carte.js"></script>
 
     <!-- Scripts principaux de l'application -->
     <script src="js/fonctions_generales.js"></script>
@@ -19,5 +25,15 @@
   </head>
   <!-- Corps -->
   <body>
+    <div id="corps_page">
+
+    </div>
+
+    <noscript>
+      <p>Attention : </p>
+      <p>Afin de pouvoir utiliser Google Maps, JavaScript doit être activé.</p>
+			<p>Or, il semble que JavaScript est désactivé ou qu'il ne soit pas supporté par votre navigateur.</p>
+			<p>Pour afficher Google Maps, activez JavaScript en modifiant les options de votre navigateur, puis essayez à nouveau.</p>
+    </noscript>
   </body>
 </html>
