@@ -17,10 +17,27 @@ function initMap()
     scaleControl: true,
     scrollwheel: false,
     streetViewControl: false,
-    zoomControl: false
-  }
+    zoomControl: false,
+    clickableIcons: false
+  };
 
   var carte = new google.maps.Map(document.getElementById("corps_page"), optionsMap);
+
+  //Initialisation du tableau des marqueurs
+  marqueursTabs = [];
+
+  //Récupération de la liste des marqueurs à afficher dans le fichier marqueur.json
+  ajaxGet("http://127.0.0.1/edsa-sector_manager/json/marqueur.json", function(reponse){
+    listeMarqueurs = JSON.parse(reponse);
+    //Variable
+    var i = 0;
+    //Parcours de la liste des marqueurs
+    listeMarqueurs.forEach(function(marqueurElt){
+      var marqueur = Object.create(Marqueur);
+      marqueur.init(marqueurElt,carte);
+      marqueur.afficher();
+    });
+  });
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);

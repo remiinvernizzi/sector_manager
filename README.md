@@ -28,8 +28,9 @@ Gestion complète d'un secteur
 ## Module API
 ### Fonctions terminées
 - Affichage de la carte de la zone.
-### Fonctions en cours
 - Placement des sites sur le plan.
+### Fonctions en cours
+- Mise en page sites suivants le type.
 ### Fonctions à faire
 - Ajout de la zone d'actions.
 - Affichage de la zone d'actions seulement lors de la sélection d'un site.
