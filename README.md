@@ -29,8 +29,8 @@ Gestion complète d'un secteur
 ### Fonctions terminées
 - Affichage de la carte de la zone.
 - Placement des sites sur le plan.
+- Mise en page sites suivants le type du site (barrage ou station).
 ### Fonctions en cours
-- Mise en page sites suivants le type.
-### Fonctions à faire
 - Ajout de la zone d'actions.
+### Fonctions à faire
 - Affichage de la zone d'actions seulement lors de la sélection d'un site.

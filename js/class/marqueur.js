@@ -17,11 +17,32 @@ var Marqueur = {
 
   //Affichage d'un marqueur
   afficher : function(){
+    var icon_path;
+    if(this.type == "barrage"){
+      icon_path = 'ressource/icone/barrage_icon.png';
+    }
+    else{
+      icon_path = 'ressource/icone/station_icon.png';
+    }
+
+    //Définition de l'image du marqueur
+    var imageMarqueur = {
+      //Adresse de l'icone personnalisée
+      url: icon_path,
+      //Taille de l'icone
+      size: new google.maps.Size(48,48),
+      //Origine de l'image
+      origin: new google.maps.Point(0,0),
+      //Ancre de l'image
+      anchor: new google.maps.Point(24,45)
+    };
+
     //Paramètres de construction du marqueur a afficher
     var optionsMarqueur = {
       position : new google.maps.LatLng(this.latitude, this.longitude),
       map: this.carte,
-      title: this.titre
+      title: this.titre,
+      icon: imageMarqueur
     };
     //Affichage du marqueur
     return new google.maps.Marker(optionsMarqueur);
