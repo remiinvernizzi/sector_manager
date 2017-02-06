@@ -2,6 +2,9 @@
 ** Fichier de gestion de la carte de la zone **
 **********************************************/
 
+//Initialisation du tableau des marqueurs
+marqueursTabs = [];
+
 function initMap()
 {
   //Paramètres de construction de la carte
@@ -23,9 +26,6 @@ function initMap()
 
   var carte = new google.maps.Map(document.getElementById("corps_page"), optionsMap);
 
-  //Initialisation du tableau des marqueurs
-  marqueursTabs = [];
-
   //Récupération de la liste des marqueurs à afficher dans le fichier marqueur.json
   ajaxGet("http://127.0.0.1/edsa-sector_manager/json/marqueur.json", function(reponse){
     listeMarqueurs = JSON.parse(reponse);
@@ -36,8 +36,12 @@ function initMap()
       var marqueur = Object.create(Marqueur);
       marqueur.init(marqueurElt,carte);
       marqueur.afficher();
+      marqueursTabs.push(marqueur);
     });
   });
 }
 
+console.log(marqueursTabs);
+
+//Chargement de la carte
 google.maps.event.addDomListener(window, 'load', initMap);

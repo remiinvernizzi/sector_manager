@@ -30,7 +30,8 @@ Gestion complète d'un secteur
 - Affichage de la carte de la zone.
 - Placement des sites sur le plan.
 - Mise en page sites suivants le type du site (barrage ou station).
-### Fonctions en cours
 - Ajout de la zone d'actions.
+### Fonctions en cours
+- Affichage/Cacher marqueurs par type de sites.
 ### Fonctions à faire
-- Affichage de la zone d'actions seulement lors de la sélection d'un site.
+- Affichage de la zone d'actions en fonction de la sélection d'un site ou non.

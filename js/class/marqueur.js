@@ -44,6 +44,12 @@ var Marqueur = {
       title: this.titre,
       icon: imageMarqueur
     };
+
+    //Centre la carte sur clique d'un marqueur
+    google.maps.event.addDomListener(optionsMarqueur, 'click', function(){
+      optionsMarqueur.map.setCenter(optionsMarqueur.position);
+    });
+
     //Affichage du marqueur
     return new google.maps.Marker(optionsMarqueur);
   },
